@@ -1,0 +1,189 @@
+@keyframes pulse_red {
+    0% {background-color:grey}
+    100%{background-color:red;}
+
+}
+
+@keyframes pulse_orange {
+    0% {background-color: grey}
+    100%{background-color:orange;}
+}
+
+@keyframes pulse_yellow {
+    0% {background-color:  grey;}
+    100%{background-color:yellow;}
+}
+
+@keyframes pulse_green {
+    0% {background-color:  grey;}
+    100%{background-color:green;}
+}
+
+@keyframes pulse_blue {
+    0% {background-color:  grey;}
+    100%{background-color:blue;}
+}
+
+@keyframes pulse_indigo {
+    0% {background-color:  grey;}
+    100%{background-color:rgb(39, 0, 67)}
+}
+
+@keyframes pulse_violet {
+    0% {background-color:  grey;}
+    100%{background-color:violet;}
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: white;
+  }
+  
+  .container {
+    background-color:white;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .semicircle1 {
+    background-color: grey;
+    /*background-color: red;*/
+    height: 200px;
+    width: 400px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+    bottom:-12%;
+
+
+  }
+  .semicircle1 :hover {
+    animation-name: pulse_red;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .semicircle2 :hover {
+
+    animation-name: pulse_orange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  
+  .semicircle3 :hover{
+    animation-name: pulse_yellow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  .semicircle4 :hover{
+    animation-name: pulse_green;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .semicircle5 :hover{
+    animation-name: pulse_blue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+   
+  .semicircle6 :hover{
+    animation-name: pulse_indigo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+  .semicircle7 :hover{
+    animation-name: pulse_violet;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  
+
+  .semicircle2 {
+    background-color: grey;
+    /*background-color: orange;*/
+    height: 180px;
+    width: 360px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+  
+
+  .semicircle3 {
+    background-color: grey;
+    /*background-color: yellow;*/
+    height: 160px;
+    width: 320px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+  .semicircle4 {
+    background-color: grey;
+    /*background-color: green;*/
+    height: 140px;
+    width: 280px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+
+
+  .semicircle5 {
+    background-color: grey;
+    /*background-color: blue;*/
+    height: 120px;
+    width: 240px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+  
+
+  .semicircle6 {
+    background-color: grey;
+    /*background-color: indigo;*/
+    height: 100px;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+ 
+  .semicircle7 {
+    background-color: grey;
+    /*background-color: violet;*/
+    height: 80px;
+    width: 160px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+  }
+  
+
+  
+  .semicircle8 {
+    background-color: #fff;
+    height: 60px;
+    width: 120px;
+    top: 20px;
+    left: 20px;
+    border-radius: 275px 275px 0 0;
+    position: relative;
+     animation-duration: 5s;
+      animation-iteration-count: 3;
+      animation-delay: 3s;
+  }
